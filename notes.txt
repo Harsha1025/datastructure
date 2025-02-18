@@ -1,0 +1,15 @@
+Data structures
+
+
+1) built_in             2)User defined
+ a)list                     stack
+ b)tuple                    Queue
+ c)set                      Linked List
+ d)Dictinary                Tree
+                            Graph
+
+
+
+list :
+        [2,3,4,5,6]
+        elements are mutable 
