@@ -13,3 +13,12 @@ Data structures
 list :
         [2,3,4,5,6]
         elements are mutable 
+
+
+
+
+Python Linked Lists
+
+* types of linked list
+* CRUD operations on linked Lists
+* Searching and sorting on linked list
