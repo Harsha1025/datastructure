@@ -301,7 +301,7 @@ class DoblyList:
                         print(first.data,end=" ")
                         first=first.next
                 print("\n")
-        def revPrint(self,last=None):
+        def revPrint(self,last=None): # reverse print of list
                 self.last=last
                 last = self.head
                 while (last.next):
@@ -311,17 +311,17 @@ class DoblyList:
                         last =last.prev
                 
 obj = DoblyList()
-obj.head=Node(1)
+obj.head=Node(1) # adding data for node 
 second=Node(2)
 third=Node(3)
 fourth=Node(4)
 
 
-obj.head.next=second
+obj.head.next=second   # adding link for the node 
 second.next=third
 third.next=fourth
 
-second.prev=obj.head
+second.prev=obj.head  # adding previous link for nodes
 third.prev=second
 fourth.prev=third
 
